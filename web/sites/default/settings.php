@@ -14,6 +14,12 @@ $databases = [];
 $config_directories = [];
 $settings['update_free_access'] = FALSE;
 $settings['container_yamls'][] = __DIR__ . '/services.yml';
+$settings['trusted_host_patterns'] = array(
+  '^progressive-alliance\.uk$',
+  '^.+\.progressive-alliance\.uk$',
+  '^pa.local$',
+  '^master-7rqtwti-7kxfvhv6bhmqk\.eu\.platform\.sh$',
+);
 
 // Install with the 'standard' profile for this example.
 //
@@ -35,7 +41,7 @@ $settings['install_profile'] = 'social';
 // This is defined inside the read-only "config" directory. This works well,
 // however it requires a patch from issue https://www.drupal.org/node/2607352
 // to fix the requirements check and the installer.
-$config_directories[CONFIG_SYNC_DIRECTORY] = '../config/sync';
+$config_directories[CONFIG_SYNC_DIRECTORY] = 'sites/default/files/config_xyz/sync';
 
 // Automatic Platform.sh settings.
 if (file_exists(__DIR__ . '/settings.platformsh.php')) {
@@ -51,3 +57,14 @@ if (file_exists(__DIR__ . '/settings.local.php')) {
 if (file_exists(__DIR__ . '/settings.docker.php')) {
   include __DIR__ . '/settings.docker.php';
 }
+$databases['default']['default'] = array (
+  'database' => 'pa_drupal8',
+  'username' => 'pa_user',
+  'password' => 'J2x!udssh7TU',
+  'prefix' => '',
+  'host' => 'localhost',
+  'port' => '3306',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
+$settings['hash_salt'] = 'ysWXGNUP1rtP73g21L-L3220chqchSmeyYplGs_ikjR02AoP3Nn4tfK-9ASJxgQxD6Vd2ovR7g';
