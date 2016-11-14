@@ -20,7 +20,7 @@ web/.eslintrc
 web/.gitattributes
 web/.htaccess
 web/autoload.php
-web/index.php
+# web/index.php
 web/robots.txt
 web/update.php
 web/web.config
