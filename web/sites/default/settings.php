@@ -57,14 +57,4 @@ if (file_exists(__DIR__ . '/settings.local.php')) {
 if (file_exists(__DIR__ . '/settings.docker.php')) {
   include __DIR__ . '/settings.docker.php';
 }
-// $databases['default']['default'] = array (
-//   'database' => 'pa_drupal8_dev',
-//   'username' => 'pa_user',
-//   'password' => 'J2x!udssh7TU',
-//   'prefix' => '',
-//   'host' => 'localhost',
-//   'port' => '3306',
-//   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-//   'driver' => 'mysql',
-// );
 $settings['hash_salt'] = 'ysWXGNUP1rtP73g21L-L3220chqchSmeyYplGs_ikjR02AoP3Nn4tfK-9ASJxgQxD6Vd2ovR7g';
