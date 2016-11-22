@@ -58,7 +58,7 @@ if (file_exists(__DIR__ . '/settings.docker.php')) {
   include __DIR__ . '/settings.docker.php';
 }
 $databases['default']['default'] = array (
-  'database' => 'pa_drupal8',
+  'database' => 'pa_drupal8_dev',
   'username' => 'pa_user',
   'password' => 'J2x!udssh7TU',
   'prefix' => '',

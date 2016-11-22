@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ec2240f43d4804fc86a8502450b62c76",
-    "content-hash": "0fce3e1eac40d09e5c1bf9a8aa7b3c52",
+    "hash": "c2d8398f125573e3686ebd1ea87e99c3",
+    "content-hash": "f454162c7e34596eed1a1872bdeec9e4",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1092,6 +1092,43 @@
             "time": "2016-11-05 10:46:44"
         },
         {
+            "name": "drupal/adaptivetheme",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/adaptivetheme",
+                "reference": "78c55fa7a07abc587f90b6b14ef473bde465285c"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-rc2+82-dev",
+                    "datestamp": "1477867443"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Jeff Burnz",
+                    "homepage": "https://www.drupal.org/user/61393"
+                }
+            ],
+            "homepage": "https://www.drupal.org/project/adaptivetheme",
+            "support": {
+                "source": "http://cgit.drupalcode.org/adaptivetheme"
+            },
+            "time": "2016-10-30 22:39:18"
+        },
+        {
             "name": "drupal/address",
             "version": "1.0.0-rc3",
             "source": {
@@ -1777,6 +1814,76 @@
             }
         },
         {
+            "name": "drupal/ds",
+            "version": "2.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/ds",
+                "reference": "8.x-2.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/ds-8.x-2.6.zip",
+                "reference": null,
+                "shasum": "6cec63a526b31f90b57d8958348280fb05ff8bec"
+            },
+            "require": {
+                "drupal/core": "~8.0",
+                "drupal/layout_plugin": "*"
+            },
+            "suggest": {
+                "drupal/devel": "Required by drupal/ds_devel",
+                "drupal/field_group": "Required by drupal/ds"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.6",
+                    "datestamp": "1475152439"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Bram Goffings",
+                    "homepage": "https://www.drupal.org/user/172527",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Kristof De Jaeger",
+                    "homepage": "http://realize.be/",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Brecht Ceyssens",
+                    "homepage": "https://www.drupal.org/user/591438",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "swentel",
+                    "homepage": "https://www.drupal.org/user/107403"
+                }
+            ],
+            "description": "Extend the display options for every entity type.",
+            "homepage": "https://www.drupal.org/project/ds",
+            "keywords": [
+                "drupal",
+                "layout",
+                "php"
+            ],
+            "support": {
+                "source": "http://git.drupal.org/project/ds.git",
+                "issues": "https://www.drupal.org/project/issues/ds",
+                "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
             "name": "drupal/dynamic_entity_reference",
             "version": "1.0.0-rc5",
             "source": {
@@ -2201,6 +2308,61 @@
             "homepage": "https://www.drupal.org/project/image_widget_crop",
             "support": {
                 "source": "http://cgit.drupalcode.org/image_widget_crop"
+            }
+        },
+        {
+            "name": "drupal/layout_plugin",
+            "version": "1.0.0-alpha23",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/layout_plugin",
+                "reference": "8.x-1.0-alpha23"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/layout_plugin-8.x-1.0-alpha23.zip",
+                "reference": "8.x-1.0-alpha23",
+                "shasum": "c79992e2f52ac6a7c8dc0706512f2c70fc9f5e11"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha23",
+                    "datestamp": "1476238140"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "David Snopek",
+                    "homepage": "https://www.drupal.org/user/172527"
+                },
+                {
+                    "name": "Bram Goffings",
+                    "homepage": "https://www.drupal.org/user/266527"
+                },
+                {
+                    "name": "Fredrik Lassen",
+                    "homepage": "https://www.drupal.org/user/243377"
+                }
+            ],
+            "description": "An API module to hold the Drupal 8 plugin manager for layouts.",
+            "homepage": "https://www.drupal.org/project/layout_plugin",
+            "keywords": [
+                "layout",
+                "php"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/layout_plugin"
             }
         },
         {
@@ -5915,7 +6077,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/adaptivetheme": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
