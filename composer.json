@@ -25,7 +25,12 @@
         "drupal/media_entity_embeddable_video": "1.x-dev",
         "drupal/inline_entity_form": "1.x-dev",
         "drupal/entity_reference_revisions": "^1.0",
-        "drupal/diff": "1.x-dev"
+        "drupal/diff": "1.x-dev",
+        "drupal/bootstrap_layouts": "^3.1",
+        "drupal/pathauto": "^1.0@beta",
+        "drupal/video": "^1.2",
+        "drupal/fitvids": "^1.0",
+        "drupal/libraries": "3.x-dev"
     },
     "repositories": [
         {
