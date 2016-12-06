@@ -1,0 +1,28 @@
+uuid: e602357e-8311-404b-ac0b-709b42a5c398
+langcode: en
+status: false
+dependencies:
+  module:
+    - social_core
+    - system
+  theme:
+    - pa
+_core:
+  default_config_hash: uGWqOl5wFxCPVb8pkP9so2rKDmrKalu59VENCJYVwJY
+id: pa_pagetitleblock_2
+theme: pa
+region: '-1'
+weight: -20
+provider: null
+plugin: social_page_title_block
+settings:
+  id: social_page_title_block
+  label: 'Page title for enrollments'
+  provider: social_core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '*/enrollments'
+    negate: false
+    context_mapping: {  }

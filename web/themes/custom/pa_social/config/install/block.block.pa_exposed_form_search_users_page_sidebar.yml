@@ -1,0 +1,31 @@
+uuid: f6a273e5-d027-4e09-824e-00b12ffd0a70
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.search_users
+  module:
+    - system
+    - views
+  theme:
+    - pa
+_core:
+  default_config_hash: QP9Hg0-yhZhLEJkRbUl2wVh2TYSV3wGoaKW4ByB3T3s
+id: pa_exposed_form_search_users_page_sidebar
+theme: pa
+region: '-1'
+weight: 4
+provider: null
+plugin: 'views_exposed_filter_block:search_users-page'
+settings:
+  id: 'views_exposed_filter_block:search_users-page'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: Filter
+visibility:
+  request_path:
+    id: request_path
+    pages: "/search/users\r\n/search/users/*"
+    negate: false
+    context_mapping: {  }

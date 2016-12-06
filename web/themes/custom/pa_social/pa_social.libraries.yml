@@ -1,0 +1,7 @@
+/* Extends socialbase.libraries.yml */
+
+global-styling:
+  version: 1.x
+  css:
+    theme:
+      css/styles.css: {}

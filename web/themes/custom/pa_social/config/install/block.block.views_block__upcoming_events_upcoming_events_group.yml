@@ -1,0 +1,32 @@
+uuid: 3e7f8ec3-9d85-4f9a-9e64-007237a2e6de
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.upcoming_events
+  module:
+    - system
+    - views
+  theme:
+    - socialbase
+_core:
+  default_config_hash: 6uEkJZsez1P-LBj-62p4zeddmiC5Oz3M3WfOrQK4JU8
+id: views_block__upcoming_events_upcoming_events_group
+theme: socialbase
+region: complementary_bottom
+weight: 2
+provider: null
+plugin: 'views_block:upcoming_events-upcoming_events_group'
+settings:
+  id: 'views_block:upcoming_events-upcoming_events_group'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/group/*/stream\r\n/group/*/about"
+    negate: false
+    context_mapping: {  }

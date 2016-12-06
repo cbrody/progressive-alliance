@@ -1,0 +1,28 @@
+uuid: d322d855-8665-4d86-8c90-310f97693ad1
+langcode: en
+status: false
+dependencies:
+  module:
+    - social_post
+    - system
+  theme:
+    - pa
+_core:
+  default_config_hash: P48P5vAKh5cdHENgfiw66njirMIylYzdKUN2jOQg00o
+id: pa_postblock
+theme: pa
+region: '-1'
+weight: -7
+provider: null
+plugin: post_block
+settings:
+  id: post_block
+  label: 'Post block'
+  provider: social_post
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /stream
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,22 @@
+uuid: c465c7a1-73c6-4e30-8be6-cbab7749f8c1
+langcode: en
+status: false
+dependencies:
+  module:
+    - social_search
+  theme:
+    - pa
+_core:
+  default_config_hash: 3APGIn-xBbN8O3m1A-8_Ip-Aer8WbyI1RRDjyu4m5xA
+id: pa_search_content_block_header
+theme: pa
+region: '-1'
+weight: -9
+provider: null
+plugin: search_content_block
+settings:
+  id: search_content_block
+  label: 'Search content block'
+  provider: social_search
+  label_display: '0'
+visibility: {  }

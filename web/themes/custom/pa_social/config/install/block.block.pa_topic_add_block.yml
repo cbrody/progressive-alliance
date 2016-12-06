@@ -1,0 +1,28 @@
+uuid: a490c8e0-7b1f-415e-bff2-beb1a7d7fd85
+langcode: en
+status: false
+dependencies:
+  module:
+    - social_topic
+    - system
+  theme:
+    - pa
+_core:
+  default_config_hash: jqoyaPsPUNAwGs_HjofeXbLr4BO8s5c_9VRCmAqacZs
+id: pa_topic_add_block
+theme: pa
+region: '-1'
+weight: -98
+provider: null
+plugin: topic_add_block
+settings:
+  id: topic_add_block
+  label: 'Topic add block'
+  provider: social_topic
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '/user/*/topics'
+    negate: false
+    context_mapping: {  }

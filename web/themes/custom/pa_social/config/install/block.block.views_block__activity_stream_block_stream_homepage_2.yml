@@ -1,0 +1,30 @@
+uuid: ac6b4035-a967-4b85-ae90-049225e38712
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.activity_stream
+  module:
+    - system
+    - views
+  theme:
+    - pa_adaptive
+id: views_block__activity_stream_block_stream_homepage_2
+theme: pa_adaptive
+region: '-1'
+weight: -3
+provider: null
+plugin: 'views_block:activity_stream-block_stream_homepage'
+settings:
+  id: 'views_block:activity_stream-block_stream_homepage'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: '10'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

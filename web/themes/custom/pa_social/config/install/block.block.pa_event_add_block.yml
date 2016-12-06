@@ -1,0 +1,28 @@
+uuid: d9ed5292-b51b-4379-bbd0-59f8a155f422
+langcode: en
+status: false
+dependencies:
+  module:
+    - social_event
+    - system
+  theme:
+    - pa
+_core:
+  default_config_hash: Pr90Y2n_TmGQ4hUCpTaWgBPfuAZqIeMOkje54rdZHRI
+id: pa_event_add_block
+theme: pa
+region: '-1'
+weight: -99
+provider: null
+plugin: event_add_block
+settings:
+  id: event_add_block
+  label: 'Event add block'
+  provider: social_event
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '/user/*/events'
+    negate: false
+    context_mapping: {  }

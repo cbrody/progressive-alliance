@@ -1,0 +1,32 @@
+uuid: bec28732-36cf-4b93-a42a-f4aeee6bc29c
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.events
+  module:
+    - system
+    - views
+  theme:
+    - pa
+_core:
+  default_config_hash: ZgUg_9wsWsT3IEg4nEwUirYuh3QiFgrDit54jtVZBQU
+id: pa_views_block__events_block_events_on_profile
+theme: pa
+region: '-1'
+weight: 1
+provider: null
+plugin: 'views_block:events-block_events_on_profile'
+settings:
+  id: 'views_block:events-block_events_on_profile'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '/user/*/stream'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,24 @@
+uuid: 4449c1d5-774b-489e-8689-e90c03c3c7d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.upcoming_events
+  module:
+    - views
+  theme:
+    - pa_adaptive
+id: views_block__upcoming_events_block_community_events_2
+theme: pa_adaptive
+region: sidebar_second
+weight: -6
+provider: null
+plugin: 'views_block:upcoming_events-block_community_events'
+settings:
+  id: 'views_block:upcoming_events-block_community_events'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

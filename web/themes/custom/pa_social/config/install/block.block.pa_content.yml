@@ -1,0 +1,22 @@
+uuid: 32811477-f72d-411a-84f6-b322cd590c8c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - pa
+_core:
+  default_config_hash: cJBzSe8tsKTEkQ3KWM0q1o2ONKVqoKQ6m2TSCYQpIsw
+id: pa_content
+theme: pa
+region: content
+weight: -13
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

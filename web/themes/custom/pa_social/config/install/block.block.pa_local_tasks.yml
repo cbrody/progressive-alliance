@@ -1,0 +1,38 @@
+uuid: ba4df989-8bd8-4567-88c2-5f286ef6d5e7
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+    - user
+  theme:
+    - pa
+_core:
+  default_config_hash: GHIwbkxMekWJubZw-NaCaFV9arJ_cU-YZyfTJ9kVKqs
+id: pa_local_tasks
+theme: pa
+region: '-1'
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      anonymous: anonymous
+      authenticated: authenticated
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+  request_path:
+    id: request_path
+    pages: "post/*/edit\r\npost/*/delete\r\n/post/*/edit\r\n/post/*/delete"
+    negate: true
+    context_mapping: {  }

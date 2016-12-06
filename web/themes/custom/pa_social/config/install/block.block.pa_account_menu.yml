@@ -1,0 +1,34 @@
+uuid: cb2e0d3d-7412-4fa6-a661-a29f97251cde
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+    - user
+  theme:
+    - pa
+_core:
+  default_config_hash: i0cPm3IXP_wmJGAe7JGeBBwotT6pLFQPCkPq6f-vF2Q
+id: pa_account_menu
+theme: pa
+region: header
+weight: 1
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      anonymous: anonymous
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

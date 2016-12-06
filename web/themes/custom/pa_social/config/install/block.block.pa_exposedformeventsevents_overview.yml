@@ -1,0 +1,39 @@
+uuid: 7b3e14a3-18fb-431c-a561-0dc0cb359dd6
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.events
+  module:
+    - system
+    - user
+    - views
+  theme:
+    - pa
+_core:
+  default_config_hash: Cn0bAAItzz-edPQEaPZG_GUOno0k_f6ID-T-iCCnpZQ
+id: pa_exposedformeventsevents_overview
+theme: pa
+region: '-1'
+weight: 1
+provider: null
+plugin: 'views_exposed_filter_block:events-events_overview'
+settings:
+  id: 'views_exposed_filter_block:events-events_overview'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: Filter
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+  request_path:
+    id: request_path
+    pages: '/user/*/events'
+    negate: false
+    context_mapping: {  }

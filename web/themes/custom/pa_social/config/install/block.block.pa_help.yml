@@ -1,0 +1,22 @@
+uuid: ba7af089-70b3-468e-9f9c-fc474d98c0a7
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - pa
+_core:
+  default_config_hash: L6rQUAiGqgz5fkSzcf2Pw4ZfsYqNF408db3Q3I1LSuk
+id: pa_help
+theme: pa
+region: content
+weight: -16
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

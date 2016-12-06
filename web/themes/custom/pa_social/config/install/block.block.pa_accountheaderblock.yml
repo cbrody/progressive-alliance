@@ -1,0 +1,31 @@
+uuid: b95f0211-cef4-4c19-b0b1-584aa9be6955
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_user
+    - user
+  theme:
+    - pa
+_core:
+  default_config_hash: _GWSemeBY1RJw7vseXe0LfyN3mtwaanj1ShN7UOuSUU
+id: pa_accountheaderblock
+theme: pa
+region: header
+weight: 2
+provider: null
+plugin: account_header_block
+settings:
+  id: account_header_block
+  label: 'Account header block'
+  provider: social_user
+  label_display: '0'
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
