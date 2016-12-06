@@ -1,7 +1,237 @@
-/* Extends socialbase.libraries.yml */
+# The SMACSS category "base" is loaded first.
+normalize:
+  css:
+    base:
+      css/normalize.css: {}
+buttons:
+  css:
+    base:
+      css/buttons.css: {}
+      css/waves.css: {}
+  js:
+    js/contrib/waves/waves.js: {}
+forms:
+  css:
+    base:
+      css/forms.css: {}
+  js:
+    js/custom/textarea-autogrow.js: {}
+  dependencies:
+    - core/drupal.form
+scaffolding:
+  css:
+    base:
+      css/scaffolding.css: {}
+tables:
+  css:
+    base:
+      css/tables.css: {}
+type:
+  css:
+    base:
+      css/type.css: {}
+utilities:
+  css:
+    base:
+      css/utilities.css: {}
+  js:
+    js/contrib/bootstrap/transition.js: {}
+    js/contrib/bootstrap/collapse.js: {}
+searchautocomplete:
+  js:
+    js/custom/search_autocomplete.js: {}
+  dependencies:
+    - core/drupal.autocomplete
+print:
+  css:
+    base:
+      css/print.css: { media: print }
 
-global-styling:
-  version: 1.x
+# The SMACSS category, "layout", is loaded after "base" styles.
+layout:
+  css:
+    layout:
+      css/layout.css: {}
+
+# The SMACSS category, "component", is loaded after "layout" styles.
+icons:
+  css:
+    component:
+      css/icons.css: {}
+admin:
+  css:
+    component:
+      css/admin-toolbar.css: {}
+alerts:
+  css:
+    component:
+      css/alerts.css: {}
+  js:
+    js/contrib/bootstrap/alert.js: {}
+badges:
+  css:
+    component:
+      css/badges.css: {}
+book:
+  css:
+    component:
+      css/book.css: {}
+
+breadcrumbs:
+  css:
+    component:
+      css/breadcrumbs.css: {}
+cards:
+  css:
+    component:
+      css/cards.css: {}
+chips:
+  css:
+    component:
+      css/chips.css: {}
+comment:
+  css:
+    component:
+      css/comment.css: {}
+dropdowns:
+  css:
+    component:
+      css/dropdowns.css: {}
+  js:
+    js/contrib/bootstrap/dropdown.js: {}
+file:
+  css:
+    component:
+      css/file.css: {}
+
+grid:
+  css:
+    component:
+      css/grid.css: {}
+hero:
+  css:
+    component:
+      css/hero.css: {}
+input-groups:
+  css:
+    component:
+      css/input-groups.css: {}
+labels:
+  css:
+    component:
+      css/labels.css: {}
+list-group:
+  css:
+    component:
+      css/list-group.css: {}
+media:
+  css:
+    component:
+      css/media.css: {}
+meta:
+  css:
+    component:
+      css/meta.css: {}
+modals:
+  css:
+    component:
+      css/modals.css: {}
+  js:
+    js/contrib/bootstrap/modal.js: {}
+navbar:
+  css:
+    component:
+      css/navbar.css: {}
+  js:
+    js/custom/navbar-collapse.js: {}
+navbar-search:
+  js:
+    js/custom/navbar-search.js: {}
+off-canvas:
+  css:
+    component:
+      css/off-canvas.css: {}
+  js:
+    js/custom/offcanvas.js: {}
+
+pagination:
+  css:
+    component:
+      css/pagination.css: {}
+popover:
+  css:
+    component:
+      css/popovers.css: {}
+  js:
+    js/contrib/bootstrap/tooltip.js: {}
+    js/contrib/bootstrap/popover.js: {}
+preview:
+  css:
+    component:
+      css/preview.css: {}
+stream:
+  css:
+    component:
+      css/stream.css: {}
+wells:
+  css:
+    component:
+      css/wells.css: {}
+drupal.ajax:
+  css:
+    component:
+      css/ajax.css: {}
+
+jquery.datepicker:
   css:
     theme:
-      css/styles.css: {}
+      css/datepicker.css: {}
+  js:
+    js/custom/date_picker.js: {}
+  dependencies:
+    - core/modernizr
+
+jquery.timepicker:
+  remote: https://github.com/jonthornton/jquery-timepicker
+  version: "1.11.3"
+  license:
+    name: MIT
+    url: https://raw.githubusercontent.com/jonthornton/jquery-timepicker/master/README.md
+    gpl-compatible: true
+  js:
+    js/contrib/timepicker/jquery.timepicker.js: { minified: true }
+  css:
+    component:
+      css/timepicker.css: {}
+
+drupal.tabledrag:
+  js:
+    js/misc/tabledrag.js: {}
+
+tablesaw:
+  css:
+    component:
+      css/tablesaw.css: {}
+  js:
+    js/contrib/tablesaw/tablesaw.js: {}
+    js/contrib/tablesaw/tablesaw-init.js: {}
+tabs:
+  css:
+    component:
+      css/tabs.css: {}
+  js:
+    js/contrib/bootstrap/tab.js: {}
+teaser:
+  css:
+    component:
+      css/teaser.css: {}
+responsive-dom:
+  js:
+    js/contrib/responsive-dom/jquery.responsive-dom.js: {}
+    js/custom/responsive-dom/responsive-dom-init.js: {}
+
+# The SMACSS category, "theme", is loaded after "components".
+fonts:
+  css:
+    theme:
+      css/fonts.css: {}
