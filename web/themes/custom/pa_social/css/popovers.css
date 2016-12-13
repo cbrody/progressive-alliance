@@ -53,7 +53,7 @@
   color: #fff;
   text-align: center;
   background-color: #000;
-  border-radius: 10px;
+  border-radius: 0;
 }
 
 .tooltip-arrow {
@@ -278,7 +278,7 @@
 .popover {
   font-size: 0.875rem;
   padding: 0;
-  border-radius: 10px;
+  border-radius: 0;
 }
 
 .popover-title {

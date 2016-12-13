@@ -565,16 +565,6 @@ span.form-required {
   display: table-cell;
 }
 
-.input-group .select-wrapper:first-child .form-control:first-child {
-  border-bottom-left-radius: 5px;
-  border-top-left-radius: 5px;
-}
-
-.input-group .select-wrapper:last-child .form-control:first-child {
-  border-bottom-right-radius: 5px;
-  border-top-right-radius: 5px;
-}
-
 .select-wrapper select {
   -webkit-appearance: none;
      -moz-appearance: none;

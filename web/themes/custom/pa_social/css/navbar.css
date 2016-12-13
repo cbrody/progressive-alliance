@@ -69,7 +69,7 @@
   margin-right: 2px;
   line-height: 1.5;
   border: 1px solid transparent;
-  border-radius: 10px 10px 0 0;
+  border-radius: 0 0 0 0;
 }
 
 .nav-tabs > li > a:hover {
@@ -89,7 +89,7 @@
 }
 
 .nav-pills > li > a {
-  border-radius: 10px;
+  border-radius: 0;
 }
 
 .nav-pills > li + li {
@@ -134,7 +134,7 @@
 
 .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
   margin-right: 0;
-  border-radius: 10px;
+  border-radius: 0;
 }
 
 .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
@@ -153,8 +153,6 @@
 
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
 }
 
 .navbar {
@@ -267,7 +265,7 @@
   background-color: transparent;
   background-image: none;
   border: 1px solid transparent;
-  border-radius: 10px;
+  border-radius: 0;
 }
 
 .navbar-toggle:focus {
@@ -308,16 +306,10 @@
 
 .navbar-nav > li > .dropdown-menu {
   margin-top: 0;
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
 }
 
 .navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
   margin-bottom: 0;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
 }
 
 .navbar-btn {
@@ -696,7 +688,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 
   .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
     border-bottom: 1px solid transparent;
-    border-radius: 10px 10px 0 0;
+    border-radius: 0 0 0 0;
   }
 
   .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
@@ -721,7 +713,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 @media (min-width: 960px) {
 
   .navbar {
-    border-radius: 10px;
+    border-radius: 0;
   }
 
   .navbar-header {

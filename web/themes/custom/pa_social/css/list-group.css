@@ -12,15 +12,8 @@
   border: 1px solid #ddd;
 }
 
-.list-group-item:first-child {
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-}
-
 .list-group-item:last-child {
   margin-bottom: 0;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
 }
 
 a.list-group-item,
@@ -216,7 +209,7 @@ button.list-group-item-danger.active:focus {
 }
 
 .list-group {
-  border-radius: 10px;
+  border-radius: 0;
 }
 
 a.list-group-item {
