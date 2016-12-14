@@ -30,14 +30,28 @@
         "drupal/pathauto": "^1.0@beta",
         "drupal/video": "^1.2",
         "drupal/fitvids": "^1.0",
-        "drupal/libraries": "3.x-dev"
+        "drupal/libraries": "3.x-dev",
+        "drupal/leaflet": "^1.0@beta",
+        "drmonty/leaflet": "^1.0"
     },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://packages.drupal.org/8"
-        }
-    ],
+  "repositories": {
+    "drupal": {
+      "type": "composer",
+        "url": "https://packages.drupal.org/8"
+      },
+     "leaflet": {
+         "type": "package",
+         "package": {
+             "name": "leaflet/leaflet",
+             "version": "v0.7.7",
+             "type": "drupal-library",
+             "dist": {
+                 "url": "https://github.com/Leaflet/Leaflet/archive/v0.7.7.zip",
+                 "type": "zip"
+             }
+         }
+     }
+ },
     "scripts": {
         "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
         "post-install-cmd": [
