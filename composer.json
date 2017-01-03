@@ -32,7 +32,8 @@
         "drupal/fitvids": "^1.0",
         "drupal/libraries": "3.x-dev",
         "drupal/leaflet": "^1.0@beta",
-        "drmonty/leaflet": "^1.0"
+        "drmonty/leaflet": "^1.0",
+        "drupal/at_tools": "^1.0@RC"
     },
   "repositories": {
     "drupal": {
