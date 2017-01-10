@@ -33,7 +33,7 @@
         "drupal/libraries": "3.x-dev",
         "drupal/leaflet": "^1.0@beta",
         "drmonty/leaflet": "^1.0",
-        "drupal/at_tools": "^1.0@RC",
+        "drupal/at_tools": "1.x-dev",
         "drupal/address": "~1.0"
     },
   "repositories": {
@@ -86,7 +86,12 @@
                 "type:drupal-drush"
             ]
         },
-        "enable-patching": true
+        "enable-patching": true,
+        "patches": {
+          "drupal/core": {
+            "Exception when adding tab to a node": "https://www.drupal.org/files/issues/2828438-38.patch"     
+            }
+          }
     },
     "replace": {
         "drupal/drupal": "*"
