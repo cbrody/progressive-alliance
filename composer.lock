@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0a6952b978aeeec0aae41f55e184a816",
-    "content-hash": "69b3152f420f0a3baa248f962b6b752d",
+    "hash": "11865f74d7ab618fb2d047b376bee416",
+    "content-hash": "c17536451fcb2cda8861069cf619102d",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1875,7 +1875,8 @@
             "type": "drupal-core",
             "extra": {
                 "patches_applied": {
-                    "Exception when adding tab to a node": "https://www.drupal.org/files/issues/2828438-38.patch"
+                    "Exception when adding tab to a node": "https://www.drupal.org/files/issues/2828438-38.patch",
+                    "Date notice": "https://www.drupal.org/files/issues/2811887-19-fix-tests.patch"
                 }
             },
             "autoload": {

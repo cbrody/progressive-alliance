@@ -89,7 +89,8 @@
         "enable-patching": true,
         "patches": {
           "drupal/core": {
-            "Exception when adding tab to a node": "https://www.drupal.org/files/issues/2828438-38.patch"     
+            "Exception when adding tab to a node": "https://www.drupal.org/files/issues/2828438-38.patch",
+            "Date notice": "https://www.drupal.org/files/issues/2811887-19-fix-tests.patch"  
             }
           }
     },

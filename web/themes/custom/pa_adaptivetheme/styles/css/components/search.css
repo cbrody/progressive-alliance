@@ -38,34 +38,57 @@
  * - search block form
  * - advanced search form
  ============================================================================ */
-.search-block-form__form {
+.search-block-form__form,
+#block-searchnavbarblock {
+  margin-top: -4.75em;
   display: block;
   clear: both;
   position: relative;
+  z-index: 999;
 }
 
 .search-block-form__form .form-type-search,
-.search-block-form__form .form-actions {
+.search-block-form__form .form-actions,
+#block-searchnavbarblock .form-type-search,
+#block-searchnavbarblock .form-actions {
   display: inline;
   margin: 0 0 0.5rem;
 }
 
-.search-block-form__form .form-search {
-  width: 100%;
+.search-block-form__form .form-search,
+.search-block-form__form #edit-search-input-content,
+#block-searchnavbarblock .form-search,
+#block-searchnavbarblock #edit-search-input-content {
+  float: right;
+  width: 8%;
+  transition: all .5s ease;
+  background-color: #f7f7f7;
 }
 
-.submit-is-visible .search-block-form__form .form-search {
+.search-block-form__form .form-search:focus,
+.search-block-form__form #edit-search-input-content:focus,
+.search-block-form__form #edit-search-input-content:hover,
+#block-searchnavbarblock .form-search:focus,
+#block-searchnavbarblock #edit-search-input-content:focus,
+#block-searchnavbarblock #edit-search-input-content:hover {
+  width: 90%;
+}
+
+.submit-is-visible .search-block-form__form .form-search, .submit-is-visible
+#block-searchnavbarblock .form-search {
   padding-right: 2rem;
 }
 
-.search-block-form__form .form-actions {
+.search-block-form__form .form-actions,
+#block-searchnavbarblock .form-actions {
   position: absolute;
   top: 0;
   right: 0;
   z-index: 1;
 }
 
-.search-block-form__form .form-submit {
+.search-block-form__form .form-submit,
+#block-searchnavbarblock .form-submit {
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -86,27 +109,32 @@
   background-size: contain;
 }
 
-.search-block-form__form .contextual-render-processed {
+.search-block-form__form .contextual-render-processed,
+#block-searchnavbarblock .contextual-render-processed {
   top: 2px;
   right: 2em;
 }
 
-.search-block-form__form ::-webkit-input-placeholder {
+.search-block-form__form ::-webkit-input-placeholder,
+#block-searchnavbarblock ::-webkit-input-placeholder {
   color: #cccccc;
   opacity: 0.75;
 }
 
-.search-block-form__form :-moz-placeholder {
+.search-block-form__form :-moz-placeholder,
+#block-searchnavbarblock :-moz-placeholder {
   color: #cccccc;
   opacity: 0.75;
 }
 
-.search-block-form__form ::-moz-placeholder {
+.search-block-form__form ::-moz-placeholder,
+#block-searchnavbarblock ::-moz-placeholder {
   color: #cccccc;
   opacity: 0.75;
 }
 
-.search-block-form__form :-ms-input-placeholder {
+.search-block-form__form :-ms-input-placeholder,
+#block-searchnavbarblock :-ms-input-placeholder {
   color: #cccccc;
   opacity: 0.75;
 }

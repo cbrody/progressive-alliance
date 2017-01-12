@@ -23,6 +23,7 @@ base:
       styles/css/components/markers.css: {}
       styles/css/components/messages.css: {}
       styles/css/components/print.css: {}
+      styles/css/components/search.css: {}
 
 # Aggregator
 aggregator:
@@ -151,13 +152,6 @@ responsive_tables:
       styles/css/components/responsive-tables.css: {}
   dependencies:
     - at_core/at.responsivetables
-
-# Search
-search:
-  version: 8.x-1.0
-  css:
-    component:
-      styles/css/components/search.css: {}
 
 # Taxonomy
 taxonomy:

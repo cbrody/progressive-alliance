@@ -5,19 +5,32 @@
  ============================================================================ */
 
 // Search Block form.
-.search-block-form__form {
+.search-block-form__form,
+#block-searchnavbarblock {
+  margin-top: -4.75em;
   display: block;
   clear: both;
   position: relative;
+  z-index: 999;
 
  .form-type-search,
  .form-actions {
     display: inline;
     @include output-rhythm(margin, 0 0 $xx-small);
   }
+  
+  .form-search,
+  #edit-search-input-content {
+    float: right;
+    width: 8%;
+    transition: all .5s ease;
+    background-color: $page-background-color;
+  }
 
- .form-search {
-    width: 100%;
+  .form-search:focus,
+  #edit-search-input-content:focus,
+  #edit-search-input-content:hover {
+     width: 90%;
   }
 
   // The submit button is not hidden.
