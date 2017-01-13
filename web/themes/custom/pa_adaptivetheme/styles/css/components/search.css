@@ -40,7 +40,7 @@
  ============================================================================ */
 .search-block-form__form,
 #block-searchnavbarblock {
-  margin-top: -4.75em;
+  margin-top: -6.5em;
   display: block;
   clear: both;
   position: relative;
@@ -61,6 +61,7 @@
 #block-searchnavbarblock #edit-search-input-content {
   float: right;
   width: 8%;
+  min-width: 3em;
   transition: all .5s ease;
   background-color: #f7f7f7;
 }
@@ -71,7 +72,7 @@
 #block-searchnavbarblock .form-search:focus,
 #block-searchnavbarblock #edit-search-input-content:focus,
 #block-searchnavbarblock #edit-search-input-content:hover {
-  width: 90%;
+  width: 50%;
 }
 
 .submit-is-visible .search-block-form__form .form-search, .submit-is-visible
