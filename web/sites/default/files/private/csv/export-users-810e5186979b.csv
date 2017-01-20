@@ -1,0 +1,3 @@
+ID,UUID,Email,"Last login","Registration date",Status,Roles,"Posts created","Comments created","Topics created","Events enrollments","Events created","Groups created"
+1,943be235-20b6-4219-9776-037a17b1b2f5,admin@cbrody.com,"2017/01/10 - 16:13","2016/11/15 - 14:42",Active,"authenticated, administrator",0,0,1,1,1,1
+17,21072247-904d-429e-86cd-42d6e90cd50b,chris@cbrody.com,never,"2017/01/10 - 16:12",Active,authenticated,0,0,0,0,0,0
