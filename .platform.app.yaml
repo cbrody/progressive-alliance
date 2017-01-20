@@ -16,7 +16,10 @@ dependencies:
     php:
         "drush/drush": "^8.0"
         "drupal/console": "@stable"
-
+  ruby:
+    sass: "3.4.7"
+  nodejs:
+    grunt-cli: "~0.1.13"
 # The relationships of the application with services or other applications.
 # The left-hand side is the name of the relationship as it will be exposed
 # to the application in the PLATFORM_RELATIONSHIPS variable. The right-hand
@@ -84,6 +87,10 @@ mounts:
 hooks:
     # We run deploy hook after your application has been deployed and started.
     # @TODO Re-import configuration
+    build: |
+      cd /web/themes/custom/pa_adaptivetheme
+      npm install
+      grunt
     deploy: |
       cd web
       drush -y cache-rebuild
