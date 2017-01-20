@@ -89,7 +89,7 @@ hooks:
     # We run deploy hook after your application has been deployed and started.
     # @TODO Re-import configuration
     build: |
-      cd /web/themes/custom/pa_adaptivetheme
+      cd web/themes/custom/pa_adaptivetheme
       npm install
       grunt
     deploy: |
