@@ -92,8 +92,9 @@ hooks:
       cd web/themes/custom/pa_adaptivetheme
       npm install grunt-cli
       grunt
+      
     deploy: |
-      cd ../../../
+      cd web
       drush -y cache-rebuild
       drush -y updatedb
       # drush -y fra --bundle=social
