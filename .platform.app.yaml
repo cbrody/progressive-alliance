@@ -2,7 +2,7 @@
 # in the same project.
 
 # The name of this app. Must be unique within a project.
-name: app
+name: pa
 
 # The runtime the application uses.
 type: "php:7.0"
@@ -90,9 +90,8 @@ hooks:
     # @TODO Re-import configuration
      build: |
       cd web/themes/custom/pa_adaptivetheme
-      npm install grunt-cli
+      npm install -g grunt-cli
       grunt
-      
     deploy: |
       cd web
       drush -y cache-rebuild
