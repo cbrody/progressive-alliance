@@ -18,9 +18,7 @@ dependencies:
         "drupal/console": "@stable"
     ruby:
       sass: "3.4.7"
-    nodejs:
-      grunt-cli: "~0.1.13"
-      
+
 # The relationships of the application with services or other applications.
 # The left-hand side is the name of the relationship as it will be exposed
 # to the application in the PLATFORM_RELATIONSHIPS variable. The right-hand
@@ -90,7 +88,7 @@ hooks:
     # @TODO Re-import configuration
     build: |
       cd web/themes/custom/pa_adaptivetheme
-      npm install grunt-cli
+      npm install -g grunt
       grunt
 
     deploy: |
