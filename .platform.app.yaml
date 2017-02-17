@@ -88,8 +88,8 @@ hooks:
     # @TODO Re-import configuration
     build: |
       cd web/themes/custom/pa_adaptivetheme
-      npm install
-      gulp
+      npm install -g
+      grunt
 
     deploy: |
       cd web
