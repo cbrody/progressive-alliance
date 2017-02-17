@@ -88,10 +88,8 @@ hooks:
     # @TODO Re-import configuration
     build: |
       cd web/themes/custom/pa_adaptivetheme
-      npm install autoprefixer
-      npm install -g grunt-cli
-      npm install grunt
-      grunt
+      npm install
+      gulp
 
     deploy: |
       cd web
