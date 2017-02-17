@@ -89,6 +89,7 @@ hooks:
     build: |
       cd web/themes/custom/pa_adaptivetheme
       npm install -g
+      npm install -g grunt-cli
       grunt
 
     deploy: |
