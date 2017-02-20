@@ -63,8 +63,6 @@
 
 .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
   float: none;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -85,4 +83,5 @@
   height: 2rem;
   padding: 0 0.625rem;
 }
+
 /*# sourceMappingURL=jquery-ui.css.map */

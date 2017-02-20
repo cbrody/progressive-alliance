@@ -8,12 +8,8 @@
 }
 
 .ms-horizontal .rm-block__content .menu {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
 
 .ms-horizontal .rm-block__content .menu .menu__item {
@@ -45,4 +41,5 @@
   width: 0;
   padding: 0;
 }
+
 /*# sourceMappingURL=responsive-menus--horizontal.css.map */

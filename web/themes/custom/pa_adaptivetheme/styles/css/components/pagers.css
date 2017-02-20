@@ -45,15 +45,9 @@
 
 @media all and (min-width: 45.063em) {
   .pager__items {
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
   }
   .pager__items__first-previous,
   .pager__items__num-pages,
@@ -79,4 +73,5 @@
 .pager__link:focus, .pager__link:hover {
   text-decoration: none;
 }
+
 /*# sourceMappingURL=pagers.css.map */

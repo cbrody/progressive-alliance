@@ -35,12 +35,8 @@
 }
 
 .comment__meta {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin: 1rem 0;
 }
 
@@ -119,4 +115,5 @@
 .field-type-comment .indented {
   margin-left: 2.625rem;
 }
+
 /*# sourceMappingURL=comments.css.map */

@@ -85,9 +85,7 @@ input[type="checkbox"], input[type="radio"] {
   margin-left: 0.1875rem;
   width: auto;
   height: auto;
-  -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 
 textarea,
@@ -249,10 +247,7 @@ textarea[disabled],
 a.button_disabled {
   box-shadow: none;
   opacity: 0.7;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
   cursor: default;
 }
 
@@ -285,9 +280,7 @@ input:focus:-ms-input-placeholder {
  *  - common styles for form elements and classes.
  ============================================================================ */
 .form-text {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  appearance: none;
 }
 
 .form-text[name="subject[0][value]"] {
@@ -328,7 +321,7 @@ input:focus:-ms-input-placeholder {
   font-size: 16px;
 }
 
-@supports ((-webkit-appearance: none) or (-moz-appearance: none) or (appearance: none)) or ((-moz-appearance: none) and (mask-type: alpha)) {
+@supports (-webkit-appearance: none) or (appearance: none) or ((-moz-appearance: none) and (mask-type: alpha)) {
   .fa-loaded .form-type-select__select-wrapper:not(.is-multiple):after {
     display: block;
   }
@@ -338,9 +331,7 @@ input:focus:-ms-input-placeholder {
     margin-right: 0.5rem;
     border-width: 1px;
     border-style: solid;
-    -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
+    appearance: none;
   }
 }
 
@@ -363,15 +354,9 @@ input:focus:-ms-input-placeholder {
 }
 
 .form-actions {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-align-items: flex-start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-justify-content: flex-start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  align-items: flex-start;
+  justify-content: flex-start;
   margin: 1rem 0;
 }
 
@@ -397,18 +382,10 @@ input:focus:-ms-input-placeholder {
 .filter-wrapper {
   border: 1px solid;
   border-top: 0;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: flex-start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .filter-wrapper .form-type-select__select-wrapper,
@@ -417,9 +394,7 @@ input:focus:-ms-input-placeholder {
 }
 
 .filter-guidelines {
-  -webkit-flex: 0 0 100%;
-      -ms-flex: 0 0 100%;
-          flex: 0 0 100%;
+  flex: 0 0 100%;
 }
 
 .filter-guidelines .filter-guidelines-item {
@@ -481,15 +456,11 @@ abbr.tabledrag-changed {
 }
 
 .container-inline {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .container-inline div,
 .container-inline label {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   margin-right: 0.375rem;
 }
@@ -904,18 +875,8 @@ label button.link {
   padding: 0 1px;
   height: 16px;
   border-radius: 10em;
-  -webkit-animation: animate-stripes 3s linear infinite;
-          animation: animate-stripes 3s linear infinite;
+  animation: animate-stripes 3s linear infinite;
   transition: width 0.5s ease-out;
-}
-
-@-webkit-keyframes animate-stripes {
-  0% {
-    background-position: 0 0, 0 0;
-  }
-  100% {
-    background-position: 0 0, -80px 0;
-  }
 }
 
 @keyframes animate-stripes {
@@ -1096,9 +1057,7 @@ form .field-add-more-submit {
 }
 
 .field--widget-image-image details table .button {
-  -webkit-align-self: flex-end;
-      -ms-flex-item-align: end;
-          align-self: flex-end;
+  align-self: flex-end;
 }
 
 div[class*="field--widget-entity-reference"] .responsive-table {
@@ -1106,15 +1065,9 @@ div[class*="field--widget-entity-reference"] .responsive-table {
 }
 
 div[class*="field--widget-entity-reference"] div.clearfix:last-child {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: flex-end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  align-items: center;
+  justify-content: flex-end;
   margin-bottom: 1rem;
 }
 
@@ -1125,4 +1078,5 @@ div[class*="field--widget-entity-reference"] div.clearfix:last-child .dropbutton
 div[class*="field--widget-entity-reference"] div.clearfix:last-child .placeholder {
   padding: 0 0.25rem;
 }
+
 /*# sourceMappingURL=form.css.map */
