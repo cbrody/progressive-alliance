@@ -19,15 +19,9 @@
 }
 
 .ms-accordion .rm-accordion-trigger {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   left: 0;
   top: 0;
@@ -43,9 +37,7 @@
 }
 
 .ms-accordion .is-open--parent .rm-accordion-trigger__icon {
-  -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
   transition: all, 225ms, ease-in-out;
 }
 
@@ -64,4 +56,5 @@
 .ms-accordion .is-child .is-parent {
   margin-left: 2.5rem;
 }
+
 /*# sourceMappingURL=responsive-menus--accordion.css.map */
