@@ -534,7 +534,6 @@
         },
         {
             "name": "consolidation/annotated-command",
-<<<<<<< Updated upstream
             "version": "2.4.0",
             "source": {
                 "type": "git",
@@ -545,18 +544,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/consolidation/annotated-command/zipball/80afffd362bd1cf83bef60db690a8c50d8390803",
                 "reference": "80afffd362bd1cf83bef60db690a8c50d8390803",
-=======
-            "version": "2.3.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/consolidation/annotated-command.git",
-                "reference": "46ad263b21517a2aafe21d4651e06c553b8309a7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/annotated-command/zipball/46ad263b21517a2aafe21d4651e06c553b8309a7",
-                "reference": "46ad263b21517a2aafe21d4651e06c553b8309a7",
->>>>>>> Stashed changes
                 "shasum": ""
             },
             "require": {
@@ -595,11 +582,7 @@
                 }
             ],
             "description": "Initialize Symfony Console commands from annotated command class methods.",
-<<<<<<< Updated upstream
             "time": "2017-02-04 06:13:54"
-=======
-            "time": "2017-01-21 06:15:21"
->>>>>>> Stashed changes
         },
         {
             "name": "consolidation/output-formatters",
@@ -1379,11 +1362,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/adaptivetheme",
-<<<<<<< Updated upstream
-                "reference": "5be76991f801a5a95cf933dfcac5b422ded37d2c"
-=======
-                "reference": "5853dff99181c1d6c32cc270e0953b7cc9092ed7"
->>>>>>> Stashed changes
+                "reference": "2929175e5227643b403e17f0ed434ba83df99b9e"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -1394,13 +1373,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-<<<<<<< Updated upstream
-                    "version": "8.x-1.0-rc2+110-dev",
-                    "datestamp": "1486872184"
-=======
-                    "version": "8.x-1.0-rc2+103-dev",
-                    "datestamp": "1484900884"
->>>>>>> Stashed changes
+                    "version": "8.x-1.0-rc2+126-dev",
+                    "datestamp": "1487293685"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -1417,11 +1391,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/adaptivetheme"
             },
-<<<<<<< Updated upstream
-            "time": "2017-02-13 00:29:32"
-=======
-            "time": "2017-01-20 22:02:25"
->>>>>>> Stashed changes
+            "time": "2017-02-17 01:09:54"
         },
         {
             "name": "drupal/address",
@@ -1597,11 +1567,10 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/at_tools",
-                "reference": "5bc30693fea3a9a0c976a2633af769eea54c9d6b"
+                "reference": "c4f28bd26a87ddd1561e24fd5dedb689401f8802"
             },
             "require": {
-                "drupal/core": "~8.0",
-                "drupal/layout_plugin": "*"
+                "drupal/core": "~8.0"
             },
             "type": "drupal-module",
             "extra": {
@@ -1609,8 +1578,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-rc2+79-dev",
-                    "datestamp": "1486882083"
+                    "version": "8.x-1.0-rc2+90-dev",
+                    "datestamp": "1487295185"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -1636,7 +1605,7 @@
                 "source": "https://www.drupal.org/project/at_tools",
                 "issues": "http://drupal.org/project/issues/at_tools"
             },
-            "time": "2017-02-12 10:00:46"
+            "time": "2017-02-17 04:05:22"
         },
         {
             "name": "drupal/bootstrap",
@@ -1836,7 +1805,6 @@
         },
         {
             "name": "drupal/console",
-<<<<<<< Updated upstream
             "version": "1.0.0-rc16",
             "source": {
                 "type": "git",
@@ -1847,18 +1815,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hechoendrupal/drupal-console/zipball/955b057042635a5dc935799228ec7bbddf2c0cc2",
                 "reference": "955b057042635a5dc935799228ec7bbddf2c0cc2",
-=======
-            "version": "1.0.0-rc15",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/hechoendrupal/drupal-console.git",
-                "reference": "c4f338de3b66658fff1e1b750613b15628ca74ba"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/hechoendrupal/drupal-console/zipball/c4f338de3b66658fff1e1b750613b15628ca74ba",
-                "reference": "c4f338de3b66658fff1e1b750613b15628ca74ba",
->>>>>>> Stashed changes
                 "shasum": ""
             },
             "require": {
@@ -1866,20 +1822,12 @@
                 "composer/installers": "~1.0",
                 "doctrine/annotations": "1.2.*",
                 "doctrine/collections": "1.3.0",
-<<<<<<< Updated upstream
                 "drupal/console-core": "1.0.0-rc16",
                 "drupal/console-extend-plugin": "~0",
                 "gabordemooij/redbean": "~4.3",
                 "guzzlehttp/guzzle": "~6.1",
                 "php": "^5.5.9 || ^7.0",
                 "psy/psysh": "0.6.* || ~0.8",
-=======
-                "drupal/console-core": "1.0.0-rc15",
-                "gabordemooij/redbean": "~4.3",
-                "guzzlehttp/guzzle": "~6.1",
-                "php": "^5.5.9 || ^7.0",
-                "psy/psysh": "0.6|0.8",
->>>>>>> Stashed changes
                 "symfony/css-selector": ">=2.7 <3.0",
                 "symfony/dom-crawler": ">=2.7 <3.3",
                 "symfony/expression-language": ">=2.7 <3.0",
@@ -1931,7 +1879,6 @@
                 "drupal",
                 "symfony"
             ],
-<<<<<<< Updated upstream
             "time": "2017-02-09 18:54:29"
         },
         {
@@ -1946,31 +1893,11 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hechoendrupal/drupal-console-core/zipball/42690f652b3a61d7d15fe9b785b946f3eb9227bf",
                 "reference": "42690f652b3a61d7d15fe9b785b946f3eb9227bf",
-=======
-            "time": "2017-01-23 19:34:20"
-        },
-        {
-            "name": "drupal/console-core",
-            "version": "1.0.0-rc15",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/hechoendrupal/drupal-console-core.git",
-                "reference": "3b82904b14c40877497d34a2901a72cc987a5808"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/hechoendrupal/drupal-console-core/zipball/3b82904b14c40877497d34a2901a72cc987a5808",
-                "reference": "3b82904b14c40877497d34a2901a72cc987a5808",
->>>>>>> Stashed changes
                 "shasum": ""
             },
             "require": {
                 "dflydev/dot-access-configuration": "1.0.1",
-<<<<<<< Updated upstream
                 "drupal/console-en": "1.0.0-rc16",
-=======
-                "drupal/console-en": "1.0.0-rc15",
->>>>>>> Stashed changes
                 "php": "^5.5.9 || ^7.0",
                 "stecman/symfony-console-completion": "~0.7",
                 "symfony/config": ">=2.7 <3.0",
@@ -2033,7 +1960,6 @@
                 "drupal",
                 "symfony"
             ],
-<<<<<<< Updated upstream
             "time": "2017-02-09 18:22:32"
         },
         {
@@ -2048,22 +1974,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hechoendrupal/drupal-console-en/zipball/32c1e4c31500ba4ccd5e68bd74977fd6258c3e37",
                 "reference": "32c1e4c31500ba4ccd5e68bd74977fd6258c3e37",
-=======
-            "time": "2017-01-23 18:02:51"
-        },
-        {
-            "name": "drupal/console-en",
-            "version": "1.0.0-rc15",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/hechoendrupal/drupal-console-en.git",
-                "reference": "87a886d5084d33f813e0d7c0547534ac43e75da8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/hechoendrupal/drupal-console-en/zipball/87a886d5084d33f813e0d7c0547534ac43e75da8",
-                "reference": "87a886d5084d33f813e0d7c0547534ac43e75da8",
->>>>>>> Stashed changes
                 "shasum": ""
             },
             "type": "drupal-console-language",
@@ -2104,21 +2014,20 @@
                 "drupal",
                 "symfony"
             ],
-<<<<<<< Updated upstream
             "time": "2017-02-09 16:02:27"
         },
         {
             "name": "drupal/console-extend-plugin",
-            "version": "0.2.0",
+            "version": "0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hechoendrupal/drupal-console-extend-plugin.git",
-                "reference": "3c6b873205c6e33f24b33807901d3287a4ff9a02"
+                "reference": "df2396782960335d18a8e5eb6ab630a37ca5f493"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hechoendrupal/drupal-console-extend-plugin/zipball/3c6b873205c6e33f24b33807901d3287a4ff9a02",
-                "reference": "3c6b873205c6e33f24b33807901d3287a4ff9a02",
+                "url": "https://api.github.com/repos/hechoendrupal/drupal-console-extend-plugin/zipball/df2396782960335d18a8e5eb6ab630a37ca5f493",
+                "reference": "df2396782960335d18a8e5eb6ab630a37ca5f493",
                 "shasum": ""
             },
             "require": {
@@ -2146,10 +2055,7 @@
                 }
             ],
             "description": "Drupal Console Extend Plugin",
-            "time": "2017-02-09 17:09:50"
-=======
-            "time": "2017-01-23 14:59:05"
->>>>>>> Stashed changes
+            "time": "2017-02-14 08:38:49"
         },
         {
             "name": "drupal/core",
@@ -2312,10 +2218,6 @@
                     "Fix region string issue": "https://www.drupal.org/files/issues/2724283-block-22.patch",
                     "Redirect to install.php on empty DB": "https://www.drupal.org/files/issues/728702-163.patch",
                     "Clean up user input for exposed checkboxes": "https://www.drupal.org/files/issues/2687773-18-Cleanup-user-input-for-checkboxes-8.2.patch",
-<<<<<<< Updated upstream
-=======
-                    "Field Storage Does not validate if the class exists": "https://www.drupal.org/files/issues/2723707-field-storage-does-not-validate-5.patch",
->>>>>>> Stashed changes
                     "views_query_views_alter does not handle IN queries": "https://www.drupal.org/files/issues/2744069-5-views-in-queries.patch",
                     "Color module html preview optional": "https://www.drupal.org/files/issues/color-optional-html-preview-2844190-2.patch"
                 }
@@ -3108,11 +3010,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/flag",
-<<<<<<< Updated upstream
                 "reference": "c8252e02459e5cd9a81e72fef3e7a4ba4f5e1800"
-=======
-                "reference": "c5432a1969b7c9f2245b29c494f2c1f946364ffe"
->>>>>>> Stashed changes
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -3123,13 +3021,8 @@
                     "dev-4.x": "4.x-dev"
                 },
                 "drupal": {
-<<<<<<< Updated upstream
                     "version": "8.x-4.0-alpha1+10-dev",
                     "datestamp": "1485917287"
-=======
-                    "version": "8.x-4.0-alpha1+5-dev",
-                    "datestamp": "1484846583"
->>>>>>> Stashed changes
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -3175,11 +3068,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/flag"
             },
-<<<<<<< Updated upstream
             "time": "2017-02-01 03:01:20"
-=======
-            "time": "2017-01-23 01:16:34"
->>>>>>> Stashed changes
         },
         {
             "name": "drupal/group",
@@ -3831,7 +3720,6 @@
         },
         {
             "name": "drupal/pathauto",
-<<<<<<< Updated upstream
             "version": "1.0.0-rc1",
             "source": {
                 "type": "git",
@@ -3843,19 +3731,6 @@
                 "url": "https://ftp.drupal.org/files/projects/pathauto-8.x-1.0-rc1.zip",
                 "reference": null,
                 "shasum": "2460339ac8739317b3c4e66e9ce7142cc02adac3"
-=======
-            "version": "1.0.0-beta2",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/pathauto",
-                "reference": "8.x-1.0-beta2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/pathauto-8.x-1.0-beta2.zip",
-                "reference": null,
-                "shasum": "08962a207e4273eaaf9d2edf79111db9fbcb8c8e"
->>>>>>> Stashed changes
             },
             "require": {
                 "drupal/core": "*",
@@ -3868,13 +3743,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-<<<<<<< Updated upstream
                     "version": "8.x-1.0-rc1",
                     "datestamp": "1485702484"
-=======
-                    "version": "8.x-1.0-beta2",
-                    "datestamp": "1484781483"
->>>>>>> Stashed changes
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -4567,23 +4437,20 @@
         },
         {
             "name": "ezyang/htmlpurifier",
-            "version": "v4.9.0",
+            "version": "v4.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ezyang/htmlpurifier.git",
-                "reference": "a1c09b09e398687deeb8e309a6305def4b43439b"
+                "reference": "d0c392f77d2f2a3dcf7fcb79e2a1e2b8804e75b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/a1c09b09e398687deeb8e309a6305def4b43439b",
-                "reference": "a1c09b09e398687deeb8e309a6305def4b43439b",
+                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/d0c392f77d2f2a3dcf7fcb79e2a1e2b8804e75b2",
+                "reference": "d0c392f77d2f2a3dcf7fcb79e2a1e2b8804e75b2",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2"
-            },
-            "require-dev": {
-                "simpletest/simpletest": "^1.1"
             },
             "type": "library",
             "autoload": {
@@ -4610,7 +4477,7 @@
             "keywords": [
                 "html"
             ],
-            "time": "2017-01-13 12:31:37"
+            "time": "2016-07-16 12:58:58"
         },
         {
             "name": "gabordemooij/redbean",
@@ -4659,21 +4526,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/goalgorilla/open_social.git",
-<<<<<<< Updated upstream
-                "reference": "e22b418f3e18ecf8806715d056a9e84a5ab7f2b9"
+                "reference": "3376e03af595179299a2107a568f0e3d81b118fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/e22b418f3e18ecf8806715d056a9e84a5ab7f2b9",
-                "reference": "e22b418f3e18ecf8806715d056a9e84a5ab7f2b9",
-=======
-                "reference": "c3e5929a678ab723f1c7d53a537475d420f69c9e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/c3e5929a678ab723f1c7d53a537475d420f69c9e",
-                "reference": "c3e5929a678ab723f1c7d53a537475d420f69c9e",
->>>>>>> Stashed changes
+                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/3376e03af595179299a2107a568f0e3d81b118fa",
+                "reference": "3376e03af595179299a2107a568f0e3d81b118fa",
                 "shasum": ""
             },
             "require": {
@@ -4704,10 +4562,7 @@
                 "drupal/r4032login": "1.x-dev#4b2077aa70e3f7b00b8a9cba25af5b948ba2e3b9",
                 "drupal/search_api": "1.0-beta4",
                 "drupal/token": "1.0-rc1",
-<<<<<<< Updated upstream
                 "drupal/votingapi": "3.0-alpha2",
-=======
->>>>>>> Stashed changes
                 "league/csv": "^7.1"
             },
             "type": "drupal-profile",
@@ -4724,10 +4579,6 @@
                         "Make sure exposed filters work": "https://www.drupal.org/files/issues/2369119-120.patch",
                         "Redirect to install.php on empty DB": "https://www.drupal.org/files/issues/728702-163.patch",
                         "Clean up user input for exposed checkboxes": "https://www.drupal.org/files/issues/2687773-18-Cleanup-user-input-for-checkboxes-8.2.patch",
-<<<<<<< Updated upstream
-=======
-                        "Field Storage Does not validate if the class exists": "https://www.drupal.org/files/issues/2723707-field-storage-does-not-validate-5.patch",
->>>>>>> Stashed changes
                         "views_query_views_alter does not handle IN queries": "https://www.drupal.org/files/issues/2744069-5-views-in-queries.patch",
                         "Color module html preview optional": "https://www.drupal.org/files/issues/color-optional-html-preview-2844190-2.patch"
                     },
@@ -4747,11 +4598,7 @@
                 "GPL-2.0+"
             ],
             "description": "Open Social is a distribution for building social communities and intranets.",
-<<<<<<< Updated upstream
-            "time": "2017-02-13 14:18:10"
-=======
-            "time": "2017-01-24 07:54:13"
->>>>>>> Stashed changes
+            "time": "2017-02-20 16:51:39"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -5852,7 +5699,6 @@
         },
         {
             "name": "symfony/config",
-<<<<<<< Updated upstream
             "version": "v2.8.17",
             "source": {
                 "type": "git",
@@ -5863,18 +5709,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/config/zipball/747fa191136cf798409183c501435aa4c16184df",
                 "reference": "747fa191136cf798409183c501435aa4c16184df",
-=======
-            "version": "v2.8.16",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/config.git",
-                "reference": "4537f2413348fe271c2c4b09da219ed615d79f9c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/config/zipball/4537f2413348fe271c2c4b09da219ed615d79f9c",
-                "reference": "4537f2413348fe271c2c4b09da219ed615d79f9c",
->>>>>>> Stashed changes
                 "shasum": ""
             },
             "require": {
@@ -5917,11 +5751,7 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "https://symfony.com",
-<<<<<<< Updated upstream
             "time": "2017-02-05 10:11:19"
-=======
-            "time": "2017-01-02 20:30:24"
->>>>>>> Stashed changes
         },
         {
             "name": "symfony/console",
@@ -5986,11 +5816,7 @@
         },
         {
             "name": "symfony/css-selector",
-<<<<<<< Updated upstream
             "version": "v2.8.17",
-=======
-            "version": "v2.8.16",
->>>>>>> Stashed changes
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
@@ -6163,8 +5989,7 @@
         },
         {
             "name": "symfony/dom-crawler",
-<<<<<<< Updated upstream
-            "version": "v3.2.3",
+            "version": "v3.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dom-crawler.git",
@@ -6174,18 +5999,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/b814b41373fc4e535aff8c765abe39545216f391",
                 "reference": "b814b41373fc4e535aff8c765abe39545216f391",
-=======
-            "version": "v3.2.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/dom-crawler.git",
-                "reference": "27d9790840a4efd3b7bb8f5f4f9efc27b36b7024"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/27d9790840a4efd3b7bb8f5f4f9efc27b36b7024",
-                "reference": "27d9790840a4efd3b7bb8f5f4f9efc27b36b7024",
->>>>>>> Stashed changes
                 "shasum": ""
             },
             "require": {
@@ -6228,11 +6041,7 @@
             ],
             "description": "Symfony DomCrawler Component",
             "homepage": "https://symfony.com",
-<<<<<<< Updated upstream
             "time": "2017-01-21 17:14:11"
-=======
-            "time": "2017-01-02 20:32:22"
->>>>>>> Stashed changes
         },
         {
             "name": "symfony/event-dispatcher",
@@ -6296,11 +6105,7 @@
         },
         {
             "name": "symfony/expression-language",
-<<<<<<< Updated upstream
             "version": "v2.8.17",
-=======
-            "version": "v2.8.16",
->>>>>>> Stashed changes
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/expression-language.git",
@@ -6349,11 +6154,7 @@
         },
         {
             "name": "symfony/filesystem",
-<<<<<<< Updated upstream
             "version": "v2.8.17",
-=======
-            "version": "v2.8.16",
->>>>>>> Stashed changes
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
