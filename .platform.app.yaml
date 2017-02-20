@@ -91,7 +91,7 @@ hooks:
       npm install -g grunt-cli
       npm install
       npm install grunt
-      grunt sass
+      grunt sass --force
 
     deploy: |
       cd web
