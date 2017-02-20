@@ -55,12 +55,8 @@
 }
 
 .pr-leaderboard .block-menu .menu-level-1 {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
 
 .pr-leaderboard .block-menu .menu-level-1 .menu__item {
@@ -86,12 +82,8 @@
  * Menus in the Footer region.
  ============================================================================ */
 .pr-footer__footer .menu-level-1 {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
 
 .pr-footer__footer .menu-level-1 .menu__item {
@@ -108,4 +100,5 @@
   content: none;
   display: none;
 }
+
 /*# sourceMappingURL=menu.css.map */

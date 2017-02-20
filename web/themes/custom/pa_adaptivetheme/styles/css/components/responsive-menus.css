@@ -75,15 +75,9 @@
 
 .rm-block {
   line-height: 1;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-justify-content: flex-start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: flex-start;
+  align-items: center;
   height: 100%;
 }
 
@@ -130,4 +124,5 @@
   margin: 0;
   padding: 0;
 }
+
 /*# sourceMappingURL=responsive-menus.css.map */

@@ -10,33 +10,23 @@
 }
 
 .is-horizontal .layout-node-form {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
 
 .is-horizontal .layout-region-node-main,
 .is-horizontal .layout-region-node-secondary {
-  -webkit-flex: 0 0 100%;
-      -ms-flex: 0 0 100%;
-          flex: 0 0 100%;
+  flex: 0 0 100%;
   width: 100%;
 }
 
 .is-horizontal .layout-region-node-main,
 .is-horizontal .layout-region-node-footer {
-  -webkit-flex-basis: 66.66667%;
-      -ms-flex-preferred-size: 66.66667%;
-          flex-basis: 66.66667%;
+  flex-basis: 66.66667%;
 }
 
 .is-horizontal .layout-region-node-secondary {
-  -webkit-flex-basis: 33.33333%;
-      -ms-flex-preferred-size: 33.33333%;
-          flex-basis: 33.33333%;
+  flex-basis: 33.33333%;
 }
 
 .is-horizontal .form-autocomplete,
@@ -50,15 +40,9 @@
 }
 
 .layout-region-node-footer .form-actions {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-align-items: flex-start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-justify-content: flex-start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .layout-region-node-secondary__inner {
@@ -121,4 +105,5 @@
 .layout-region-node-secondary__inner .description {
   margin: 0.25rem 0;
 }
+
 /*# sourceMappingURL=node-form.css.map */

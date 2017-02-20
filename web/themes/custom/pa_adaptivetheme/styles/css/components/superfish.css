@@ -126,8 +126,10 @@ div.sf-accordion-toggle.sf-style-none > a:after {
   right: 0.75rem;
   top: 42%;
   -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   speak: none;
 }
+
 /*# sourceMappingURL=superfish.css.map */

@@ -45,8 +45,7 @@
 .flexslider .slides > li {
   display: none;
   position: relative;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .no-js .flexslider .slides > li:first-child {
@@ -105,8 +104,7 @@ html[xmlns] .flexslider .slides {
   background-color: rgba(0, 0, 0, 0.6);
   color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 @media all and (max-width: 45em) {
@@ -277,4 +275,5 @@ html[xmlns] .flexslider .slides {
   opacity: 1;
   cursor: default;
 }
+
 /*# sourceMappingURL=slideshows.css.map */
