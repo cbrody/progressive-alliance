@@ -1362,7 +1362,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/adaptivetheme",
-                "reference": "5be76991f801a5a95cf933dfcac5b422ded37d2c"
+                "reference": "2929175e5227643b403e17f0ed434ba83df99b9e"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -1373,8 +1373,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-rc2+110-dev",
-                    "datestamp": "1486872184"
+                    "version": "8.x-1.0-rc2+126-dev",
+                    "datestamp": "1487293685"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -1391,7 +1391,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/adaptivetheme"
             },
-            "time": "2017-02-13 00:29:32"
+            "time": "2017-02-17 01:09:54"
         },
         {
             "name": "drupal/address",
@@ -1567,11 +1567,10 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/at_tools",
-                "reference": "5bc30693fea3a9a0c976a2633af769eea54c9d6b"
+                "reference": "c4f28bd26a87ddd1561e24fd5dedb689401f8802"
             },
             "require": {
-                "drupal/core": "~8.0",
-                "drupal/layout_plugin": "*"
+                "drupal/core": "~8.0"
             },
             "type": "drupal-module",
             "extra": {
@@ -1579,8 +1578,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-rc2+79-dev",
-                    "datestamp": "1486882083"
+                    "version": "8.x-1.0-rc2+90-dev",
+                    "datestamp": "1487295185"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -1606,7 +1605,7 @@
                 "source": "https://www.drupal.org/project/at_tools",
                 "issues": "http://drupal.org/project/issues/at_tools"
             },
-            "time": "2017-02-12 10:00:46"
+            "time": "2017-02-17 04:05:22"
         },
         {
             "name": "drupal/bootstrap",
@@ -2019,16 +2018,16 @@
         },
         {
             "name": "drupal/console-extend-plugin",
-            "version": "0.2.0",
+            "version": "0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hechoendrupal/drupal-console-extend-plugin.git",
-                "reference": "3c6b873205c6e33f24b33807901d3287a4ff9a02"
+                "reference": "df2396782960335d18a8e5eb6ab630a37ca5f493"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hechoendrupal/drupal-console-extend-plugin/zipball/3c6b873205c6e33f24b33807901d3287a4ff9a02",
-                "reference": "3c6b873205c6e33f24b33807901d3287a4ff9a02",
+                "url": "https://api.github.com/repos/hechoendrupal/drupal-console-extend-plugin/zipball/df2396782960335d18a8e5eb6ab630a37ca5f493",
+                "reference": "df2396782960335d18a8e5eb6ab630a37ca5f493",
                 "shasum": ""
             },
             "require": {
@@ -2056,7 +2055,7 @@
                 }
             ],
             "description": "Drupal Console Extend Plugin",
-            "time": "2017-02-09 17:09:50"
+            "time": "2017-02-14 08:38:49"
         },
         {
             "name": "drupal/core",
@@ -4527,12 +4526,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/goalgorilla/open_social.git",
-                "reference": "e22b418f3e18ecf8806715d056a9e84a5ab7f2b9"
+                "reference": "3376e03af595179299a2107a568f0e3d81b118fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/e22b418f3e18ecf8806715d056a9e84a5ab7f2b9",
-                "reference": "e22b418f3e18ecf8806715d056a9e84a5ab7f2b9",
+                "url": "https://api.github.com/repos/goalgorilla/open_social/zipball/3376e03af595179299a2107a568f0e3d81b118fa",
+                "reference": "3376e03af595179299a2107a568f0e3d81b118fa",
                 "shasum": ""
             },
             "require": {
@@ -4599,7 +4598,7 @@
                 "GPL-2.0+"
             ],
             "description": "Open Social is a distribution for building social communities and intranets.",
-            "time": "2017-02-13 14:18:10"
+            "time": "2017-02-20 16:51:39"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -5990,7 +5989,7 @@
         },
         {
             "name": "symfony/dom-crawler",
-            "version": "v3.2.3",
+            "version": "v3.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dom-crawler.git",
