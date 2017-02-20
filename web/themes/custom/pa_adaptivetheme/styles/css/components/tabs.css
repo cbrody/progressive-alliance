@@ -118,16 +118,10 @@
 
 .tabs .is-horizontal ul.tabs--primary {
   border-bottom: 1px solid #cccccc;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   white-space: nowrap;
-  -webkit-align-items: flex-end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  align-items: flex-end;
 }
 
 .tabs .is-horizontal ul.tabs--primary li {
@@ -182,12 +176,8 @@
 }
 
 .tabs .is-horizontal ul.tabs--secondary {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   padding: 0;
 }
 
@@ -304,16 +294,10 @@
 @media all and (min-width: 60.063em) {
   .no-js .tabs ul.tabs--primary {
     border-bottom: 1px solid #cccccc;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-flex-direction: row;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
     white-space: nowrap;
-    -webkit-align-items: flex-end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    align-items: flex-end;
   }
   .no-js .tabs ul.tabs--primary li {
     margin: 0 0 0 0;
@@ -358,12 +342,8 @@
     background: none;
   }
   .no-js .tabs ul.tabs--secondary {
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-flex-direction: row;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
     padding: 0;
   }
   .no-js .tabs ul.tabs--secondary li {
@@ -395,4 +375,5 @@
     color: #363636;
   }
 }
+
 /*# sourceMappingURL=tabs.css.map */

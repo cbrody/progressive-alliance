@@ -115,9 +115,7 @@
 .file a {
   text-decoration: none;
   word-break: break-all;
-  -webkit-hyphens: auto;
-      -ms-hyphens: auto;
-          hyphens: auto;
+  hyphens: auto;
 }
 
 .file a:before {
@@ -210,4 +208,5 @@
 [id*="field-language-display"] .form-item {
   margin: 0;
 }
+
 /*# sourceMappingURL=field.css.map */

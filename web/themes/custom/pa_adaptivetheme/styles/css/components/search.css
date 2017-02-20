@@ -90,8 +90,6 @@
 
 .search-block-form__form .form-submit,
 #block-searchnavbarblock .form-submit {
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
   display: inline-flex;
   margin: 0;
   padding: 0;
@@ -197,4 +195,5 @@
 .fa-loaded .search-help-link:before {
   display: inline-block;
 }
+
 /*# sourceMappingURL=search.css.map */

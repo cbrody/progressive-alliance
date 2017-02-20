@@ -35,17 +35,13 @@
 }
 
 .ms-dropmenu .rm-block__content .menu-level-1 {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   position: relative;
 }
 
 .ms-dropmenu .rm-block__content .menu-level-1 .menu__item {
   width: auto;
-  -webkit-flex: 0 0 auto;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
+  flex: 0 0 auto;
 }
 
 .ms-dropmenu .rm-block__content .menu-level-1 .menu__item:hover > .is-child, .ms-dropmenu .rm-block__content .menu-level-1 .menu__item:focus > .is-child {
@@ -114,4 +110,5 @@
   left: 100%;
   top: 0;
 }
+
 /*# sourceMappingURL=responsive-menus--dropmenu.css.map */
