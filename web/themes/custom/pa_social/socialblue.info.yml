@@ -1,0 +1,118 @@
+name: PA Social theme
+description: Dev theme for PA site.
+screenshot: screenshot.png
+type: theme
+
+base theme: socialbase
+
+core: 8.x
+version: '1.1'
+
+libraries:
+  - pa_social/brand
+  - pa_social/site-footer
+
+libraries-extend:
+  socialbase/base:
+    - pa_social/base
+  socialbase/alerts:
+    - pa_social/alerts
+  socialbase/badges:
+    - pa_social/badges
+  socialbase/button:
+    - pa_social/button
+  socialbase/cards:
+    - pa_social/cards
+  socialbase/form-controls:
+    - pa_social/form-controls
+  socialbase/labels:
+    - pa_social/labels
+  socialbase/list-group:
+    - pa_social/list-group
+  # Extend molecules
+  socialbase/breadcrumb:
+    - pa_social/breadcrumb
+  socialbase/dropdown:
+    - pa_social/dropdown
+  socialbase/form-elements:
+    - pa_social/form-elements
+  socialbase/form--input-groups:
+    - pa_social/form--input-groups
+  socialbase/like:
+    - pa_social/like
+  # attach the datepicker stylesheet to all date fields
+  core/drupal.date:
+    - pa_social/form--datepicker
+  # extend the core datepicker with a stylesheet
+  core/jquery.ui.datepicker:
+    - pa_social/form--timepicker
+  socialbase/form--password:
+    - pa_social/form--password
+  socialbase/pagination:
+    - pa_social/pagination
+  socialbase/popover:
+    - pa_social/popover
+  socialbase/nav-book:
+    - pa_social/nav-book
+  socialbase/nav-tabs:
+    - pa_social/nav-tabs
+  socialbase/navbar:
+    - pa_social/navbar
+  socialbase/teaser:
+    - pa_social/teaser
+  socialbase/tour:
+    - pa_social/tour
+  # Extend Organisms
+  socialbase/comment:
+    - pa_social/comment
+  socialbase/hero:
+    - pa_social/hero
+  socialbase/meta:
+    - pa_social/meta
+  socialbase/offcanvas:
+    - pa_social/offcanvas
+  socialbase/stream:
+    - pa_social/stream
+  socialbase/page-node:
+    - pa_social/page-node
+
+ckeditor_stylesheets:
+  - assets/css/ckeditor.css
+
+# This section is used by the contrib module, Component Libraries. It allows you
+# to reference .twig files in your components/ directory.
+component-libraries:
+  base:
+    paths:
+      - components/01-base
+  atoms:
+    paths:
+      - components/02-atoms
+  molecules:
+    paths:
+      - components/03-molecules
+  organisms:
+    paths:
+      - components/04-organisms
+  templates:
+    paths:
+      - components/05-templates
+  pages:
+    paths:
+      - components/06-pages
+
+regions:
+  hidden: Hidden
+  header: Header
+  breadcrumb: Breadcrumb
+  hero: Hero
+  secondary_navigation: Secondary navigation
+  content_top: Content top
+  title: Page title
+  content: Content
+  complementary_top: Complementary top
+  complementary_bottom: Complementary bottom
+  content_bottom: Content bottom
+  footer: Footer
+
+debug: false
